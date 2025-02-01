@@ -1,5 +1,6 @@
-# Sorting-Algorithms-Visualiser
-An interactive visualization tool for common sorting algorithms built with Python and Tkinter.
+# Sorting Algorithm Visualizer 🎯
+
+A Python-based GUI application that visually demonstrates how various sorting algorithms work in real-time. Built with Tkinter, this tool helps users understand algorithmic complexity through dynamic visualization and Big O notation displays.
 
 ## Overview
 The Sorting Algorithm Visualizer is a desktop application that demonstrates how various sorting algorithms work through real-time graphical visualizations. Built using Python’s Tkinter library, the application features multiple sorting algorithms including:
@@ -12,12 +13,23 @@ The Sorting Algorithm Visualizer is a desktop application that demonstrates how 
 
 Users can adjust parameters such as the number of elements to sort and the speed of the visualization using an intuitive GUI. In addition, the tool displays the Big O notation of the selected algorithm, offering both an educational and interactive way to learn about sorting methods and algorithm efficiency.
 
-## Features
-Interactive Visualization:
-Visual representation of sorting processes with adjustable speed.
+## Features ✨
+- **Visualize 5+ Algorithms**: Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, Merge Sort
+- **Interactive Controls**:
+  - Adjustable speed control (1ms-100ms delay)
+  - Dynamic element count adjustment (1-1000 elements)
+  - Instant shuffle functionality
+- **Educational Components**:
+  - Real-time Big O complexity display
+  - Responsive canvas visualization
+  - Algorithm comparison capabilities
+- **Responsive Design**: Auto-scales to 80% of screen size
 
-## Multiple Sorting Algorithms:
-Supports Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, and Merge Sort.
+## Technologies Used 💻
+- **Python 3.9+**
+- **Tkinter** (GUI Framework)
+- **Object-Oriented Programming** principles
+- **Modular Architecture** for easy algorithm additions
 
 ## Dynamic Configuration:
 Users can specify the number of elements (between 1 and 1000) and shuffle the dataset at any time.
